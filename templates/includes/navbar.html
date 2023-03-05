@@ -31,14 +31,14 @@
                         </div>
                         <!-- end col-3 -->
                         <div class="col-4">
-                            <h5 class="title"><a href="../south/south.html">South</a></h5>
+                            <h5 class="title"><a href="{{ url_for('south.viewSouth')}}">South</a></h5>
                             <ul class="list-unstyled">
-                                <li><a href="../south/St%20James%20Power%20Station.html">St James Power Station</a></li>
-                                <li><a href="../south/Rotunda_Library_Archive.html">Rotunda Library & Archive</a></li>
-                                <li><a href="../south/Wood_in_the_Books.html">Wood in the Books</a></li>
-                                <li><a href="../south/Vintage_Camera_Museum.html">Vintage Camera Museum</a></li>
+                                <li><a href="{{ url_for('south.viewStJamesPowerStation')  }}">St James Power Station</a></li>
+                                <li><a href="{{ url_for('south.viewRotundaLibraryArchive')  }}">Rotunda Library & Archive</a></li>
+                                <li><a href="{{ url_for('south.viewWoodInTheBooks')  }}">Wood in the Books</a></li>
+                                <li><a href="{{ url_for('south.viewVintageCameraMuseum')  }}">Vintage Camera Museum</a></li>
                                 <li><a href="{{ url_for('south.viewLazarusIsland')  }}">Lazarus Island</a></li>
-                                <li><a href="../south/Berlayer_Creek_Boardwalk.html">Berlayer Creek Boardwalk</a></li>
+                                <li><a href="{{ url_for('south.viewBerlayerCreekBoardwalk')  }}">Berlayer Creek Boardwalk</a></li>
                             </ul>
                         </div>
                         <!-- end col-3 -->

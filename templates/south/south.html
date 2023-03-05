@@ -1,0 +1,284 @@
+{% extends 'base.html' %}
+{% block title %}Explore Singapore - South{% endblock %}
+{% block content %}
+<script async src='../random.js' type='text/javascript'></script>
+<style>
+    /* Height for devices larger than 576px */
+
+    #containerabout {
+
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../../static/img/south/3.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+
+    }
+
+    #containerabout1 {
+
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://stjamespowerstation.sg/wp-content/uploads/2022/02/5.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+
+    }
+
+    #containerabout2 {
+
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://www.nationalgallery.sg/sites/default/files/20191008_JNX_9171-HDR_HIGHRES_WEBRES.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+
+    }
+
+    #containerabout3 {
+
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://cdn.shopify.com/s/files/1/2950/5102/files/WITB_ShopfrontWeb3_5f449f5e-6916-43fe-9551-f4eb5f290768_1200x.jpg?v=1630572119);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+
+    }
+
+    #containerabout4 {
+
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://www.vintagecamerasmuseumsg.com/admin/views/gallery/211117102217.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+
+    }
+
+    #containerabout5 {
+
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://media.cntraveler.com/photos/5a9174c820dfb6552425e85d/16:9/w_1920,c_limit/Lazarus-Island_GettyImages-481012244.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+
+    }
+
+    #containerabout6 {
+
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../../static/img/south/4.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+
+    }
+</style>
+
+<body>
+    <!--Navbar for website-->
+
+    <!-- breadcrumbs -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../homepage/index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="../places to visit/places to visit.html">Places to Explore</a></li>
+            <li class="breadcrumb-item active" aria-current="page">South</li>
+        </ol>
+    </nav>
+
+    <!-- Carousel wrapper -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" >
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner" style="z-index : -1">
+            <div class="carousel-item active">
+              <div id="containerabout">
+                <div class="centered">
+                    <h2 class="headerabout" >Visit the South!</h2>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div id="containerabout1"></div>
+                <div class="caption">
+                    <h5>St James Power Station</h5>
+                    <p>Explore the power station of Singapore</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="containerabout2"></div>
+                <div class="caption">
+                    <h5>Rotunda Library & Archive</h5>
+                    <p>Explore the law library of Singapore</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="containerabout3"></div>
+                <div class="caption">
+                    <h5>Wood in the Books</h5>
+                    <p>Explore the bookstore of Singapore creators</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="containerabout4"></div>
+                <div class="caption">
+                    <h5>Vintage Camera Museum</h5>
+                    <p>Explore the photography history</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="containerabout5"></div>
+                <div class="caption">
+                    <h5>Lazarus Island</h5>
+                    <p>Explore the islands of Singapore</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="containerabout6"></div>
+                <div class="caption">
+                    <h5>Berlayer Creek Boardwalk</h5>
+                    <p>Explore the unknown and mystical nature of singapore-national-orchid-garden</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+        <!--Main Navigation-->
+
+        <!--Main layout-->
+        <main class="mt-5" id="container2">
+            <div class="container" >
+                <!--Section: Content-->
+                <section>
+                    <div class="row">
+                        <div class="col-md-6 gx-5 mb-4">
+                            <div>
+                                <img src="../../static/img/south/5.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 gx-5 mb-4">
+                            <h2 id="header">Explore the South of Singapore</h2>
+                            <p style="padding-top: 20px;">
+                              There’s something for everyone―world-class theme parks, iconic waterfront attractions, the world’s first night safari, hidden gems to explore in charming neighbourhoods, lush greenery. Discover how a City in the Garden is rooted in history and heritage. Stroll along the colourful shophouses in Haji Lane. Or trek off the beaten path and walk atop trees at MacRitchie Reservoir. If you’re passionate about discovering places, here’s where nature lovers, history buffs, backpackers, city trippers, trekkers, discoverers, sightseers―meet.
+                            </p>
+                            <h2 id="header">Don't know where to visit?</h2>
+                            <p style="padding-top: 20px;">
+                                All's good! Press this button, and you would get transported to another page :)
+                            </p>
+                            <button class='btn' onclick="randSite()">
+                                Click Here!
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <!--Section: Content-->
+
+                <section class="text-center" style="background-color:#e3e3e3; padding-bottom: 20px;">
+                    <h1 class="mb-5" id="header">Blog</h1>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card h-100" style="border-radius: 10px" >
+                                <div class="bg-image" data-ripple-color="light">
+                                    <img src="../homepage/5.jpg" class="img-fluid" style="border-radius: 10px"/>
+                                    <a href="#!">
+                                        <div ></div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Revamped St James Power House</h5>
+                                    <p class="card-text">
+                                        St James Power Station was the Municipal government's first foray into a power station of such large magnitude. Mapletree led two rounds of restorations in 2006 and 2018 to arrest the building's deterioration.
+                                    </p>
+                                    <a href="../blog/blog 1.html" class="btn">Click Here!</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="card h-100" style="border-radius: 10px">
+                                <div class="bg-image" data-ripple-color="light">
+                                    <img src="4.jpg" class="img-fluid" style="border-radius: 10px"/>
+                                    <a href="..">
+                                        <div ></div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Berlayer Creek Boardwalk</h5>
+                                    <p class="card-text">
+                                        Berlayer Creek is home to some 60 recorded bird species, 19 species of fishes and 14 true mangrove plant species. It also has one of the highest densities of molluscs in Singapore with some 50 species being recorded over a 5-hectare area.
+                                    </p>
+                                    <a href="../blog/blog 2.html" class="btn">Click Here!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            </div>
+        </main>
+        <!--Main layout-->
+</body>
+{% endblock %}
