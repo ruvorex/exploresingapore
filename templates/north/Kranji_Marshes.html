@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+{% block title %}Explore Singapore - Kranji Marshes{% endblock %}
+{% block content %}
+<style>
+
+
+    #containerabout {
+        width: 100%;
+        height: 90vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../static/img/north/Kranji-Marshes.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+        max-height: 600px;
+        margin-bottom: 10px;
+    }
+
+
+</style>
+<body>
+
+        <!-- breadcrumbs -->
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../homepage/index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../places to visit/places to visit.html">Places to Explore</a></li>
+                <li class="breadcrumb-item"><a href="../north/north.html">North</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Kranji Marshes</li>
+            </ol>
+        </nav>
+
+    <!-- Header Image -->
+
+        <div id="containerabout">
+            <div class="centered">
+                <h2 class="headerabout" id="header">Kranji Marshes</h2>
+            </div>
+        </div>
+    <div class="container" id="containerbackground">
+        <div class="container" id="container2">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="header">About Us</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        Be charmed by the rustic nature of Kranji Marshes, a 56.8-hectare freshwater marshland that is home to unique biodiversity. Located along the northwestern shore of Kranji Reservoir, it is one of the largest freshwater marshes in Singapore.<br><br>
+                        Kranji Marshes is home to a rich array of flora and fauna, including more than 170 species of birds, 54 species of butterflies and 33 species of dragonflies. Together with Sungei Buloh Wetland Reserve, it provides an important habitat in the Kranji area for the conservation of biodiversity, especially marsh birds. .<br><br>
+                        With a range of natural habitats such as freshwater marsh, woodland and grass habitats, Kranji Marshes is a great place for visitors to observe and enjoy nature. .<br><br>
+                    </p>
+                </div>
+                <div class="col-12">
+                    <h2 class="header">More About Us</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        <span id="smallheader">Throughout the year</span><br>
+                        Walk along Neo Tiew Woods and look out for birds and reptiles, such as woodpeckers and monitor lizards. Often, a Changeable Hawk Eagle or White-bellied Sea Eagle can be seen perching on one of the tall trees. At the Marsh Station, visit one of the bird hides for a chance to observe shy marsh birds such as the Purple Swamphen and Common Moorhen. Enjoy a panoramic view of Kranji Marshes and Kranji Reservoir from the top of Raptor Tower.                            <br>
+                        <br>
+                        <span id="smallheader">Seasonal from November to March</span><br>
+                        During the raptor migratory season, look out for visiting species such as the Black Baza and Japanese Sparrowhawk from the top of Raptor Tower.
+                        <br>
+                        <br>
+                        <span id="smallheader">Core Conservation Area</span><br>
+                        The Core Conservation Area is an ecologically sensitive habitat and is closed to the public, except for activities approved by NParks.                            <br>
+                    </p>
+                    <p>Credits: <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/kranji-marshes">NParks</a> ,<a href='https://www.lepl.com.sg/projects/kranji-marshes/'>LEPL</a></p>
+                </div>
+            </div>
+        </div>
+        <div class='container' id="container2">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="header">Map</h2>
+                    <div class="iframe-rwd">
+                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5927611984935!2d103.7201379!3d1.4201667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0df5fc08d7dd%3A0x97bbe3d7341e764e!2sKranji%20Marshes!5e0!3m2!1sen!2ssg!4v1659781924935!5m2!1sen!2ssg" ></iframe>
+                        <br>
+                        <small>
+                          <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5927611984935!2d103.7201379!3d1.4201667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0df5fc08d7dd%3A0x97bbe3d7341e764e!2sKranji%20Marshes!5e0!3m2!1sen!2ssg!4v1659781924935!5m2!1sen!2ssg"  style="color:#0000FF;text-align:left">View Larger Map</a>
+                        </small>
+                    </div>
+                </div>
+                <div class = 'col-6'>
+                    <h2 class="header">Operating Hours</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Days</th><th>Timing</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <td>Monday-Sunday</td><td>7:00am – 7:00pm(entering or remaining Kranji Marshes after 7pm is not allowed)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>*Please note that some venues may be subject to opening hours, please visit their official website to confirm opening hours</p>
+                    <h2 class="header">Contact Details</h2>
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <td>Phone Number:</td>
+                                <td>+65 6794 1401</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>nparks_sbwr@nparks.gov.sg</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of .container -->
+    <script type="text/javascript">
+        var myModal = document.getElementById("myModal");
+        var myInput = document.getElementById("myInput");
+        myModal.addEventListener("shown.bs.modal", function () {
+            myInput.focus();
+        });
+    </script>
+</body>
+{% endblock %}
+

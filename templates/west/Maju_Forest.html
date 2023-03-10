@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% block title  %}Explore Singapore - Maju Forest{% endblock %}
+{% block content %}
+<style>
+    #containerabout {
+        width: 100%;
+        height: 90vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://thesmartlocal.com/wp-content/uploads/2021/08/maju-forest-clementi-4.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+        max-height: 600px;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+            <!-- breadcrumbs -->
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../homepage/index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../places to visit/places to visit.html">Places to Explore</a></li>
+                <li class="breadcrumb-item"><a href="../west/west.html">West</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Maju Forest</li>
+            </ol>
+        </nav>
+
+    <!-- Header Image -->
+    <div id="containerabout">
+        <div class="centered">
+            <h2 class="headerabout" id="header">Maju Forest</h2>
+        </div>
+    </div>
+
+    <div class="container" id="containerbackground">
+        <div class="container" id="container2">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="header">About Us</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        Spots of pristine nature are hard to come by in Singapore, but covering 33 soccer fields in an idyllic corner of Clementi is the lesser-known Maju Forest. Bordered by residential estates, Maju Camp and the Ulu Pandan River, it’s only a third the area of the popular Clementi Forest just to its north, but Maju Forest offers up plenty of landmarks and a storied history of its own.
+                    </p>
+                    <p>Credits: <a href="https://thesmartlocal.com/read/maju-forest-clementi/">TheSmartLocal</a></p>
+                </div>
+            </div>
+        </div>
+        <div class='container' id="container2">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="header">Map</h2>
+                    <div class="iframe-rwd">
+                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7498031272257!2d103.77103071531282!3d1.3260549620194624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1b1e8e7b7473%3A0x11becd5f12c50eab!2sMaju%20Forest!5e0!3m2!1sen!2ssg!4v1659794448729!5m2!1sen!2ssg" ></iframe>
+                        <br>
+                        <small>
+                          <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7498031272257!2d103.77103071531282!3d1.3260549620194624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1b1e8e7b7473%3A0x11becd5f12c50eab!2sMaju%20Forest!5e0!3m2!1sen!2ssg!4v1659794448729!5m2!1sen!2ssg"  style="color:#0000FF;text-align:left">View Larger Map</a>
+                        </small>
+                    </div>
+                </div>
+                <div class = 'col-6'>
+                    <h2 class="header">Operating Hours</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Days</th><th>Timing</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <td>Monday-Sunday</td><td>Open 24 hours</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>*Please note that some venues may be subject to opening hours, please visit their official website to confirm opening hours</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of .container -->
+    <script type="text/javascript">
+        var myModal = document.getElementById("myModal");
+        var myInput = document.getElementById("myInput");
+        myModal.addEventListener("shown.bs.modal", function () {
+            myInput.focus();
+        });
+    </script>
+</body>
+{% endblock %}

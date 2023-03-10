@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block title %}Explore Singapore - Dragon Playground{% endblock %}
+{% block content %}
+<style>
+
+
+    #containerabout {
+        width: 100%;
+        height: 90vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.roots.gov.sg/-/media/Roots/Images/landmarks/toa-payoh-trail/Toa-Payoh-Dragon-Playground-Singapore-Heritage-Festival.ashx);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+        max-height: 600px;
+        margin-bottom: 10px;
+    }
+
+
+</style>
+<body>
+        <!-- breadcrumbs -->
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../homepage/index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../places to visit/places to visit.html">Places to Explore</a></li>
+                <li class="breadcrumb-item"><a href="../central/central.html">Central</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Dragon Playground</li>
+            </ol>
+        </nav>
+
+    <!-- Header Image -->
+    <div id="containerabout">
+        <div class="centered">
+            <h2 class="headerabout" id="header">Dragon Playground</h2>
+        </div>
+    </div>
+    <div class="container" id="containerbackground">
+        <div class="container" id="container2">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="header">About Us</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        One of the early playgrounds designed by the Housing & Development Board, Toa Payoh's Dragon Playground is one of two remaining playgrounds with this dragon design in Singapore. Two smaller playgrounds with dragon designs can also be found in Braddell and MacPherson.                        </p>
+                </div>
+                <div class="col-12">
+                    <h2 class="header">History</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        In the 1970s, the Housing & Development Board designed a range of playground designs for its public housing estates. The first series was animal themed while the second wave of playgrounds featured objects and concepts easily identifiable with the local culture.<br><br>The Dragon Playground, built in 1979, followed an earlier experiment with a dragon design built in the Toa Payoh Town Park. The earlier dragon had a longer spine, metal head and a circular monkey bar. As feedback came back that the dragon was too long and that the initial metal head was too difficult to faricate, a new design was adopted.<br><br>In 1979, the new dragon design featured a larger head tiled with terrazzo and tiles as well as a body of colourfully-painted steel rings which children could either slide or climb through. The use of terrazzo tiles produced a mosaic aesthetic that remains beloved decades after the dragon playground’s construction.<br><br>This playground is one of two remaining playgrounds in Singapore with this design, the other being located in Ang Mo Kio. The Toa Payoh playground retains its original sand surface and two smaller playgrounds with dragon designs can be found in Braddell and MacPherson.
+                    </p>
+                    <p>Credits: <a href="https://www.roots.gov.sg/places/places-landing/Places/landmarks/toa-payoh-trail/toa-payoh-dragon-playground">Roots</a></p>
+                </div>
+            </div>
+        </div>
+        <div class='container' id="container2">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="header">Map</h2>
+                    <div class="iframe-rwd">
+                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d705.1163605904803!2d103.85400654972376!3d1.3318272770044728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17648d4dcabb%3A0x5c0f4ce489072a82!2sDragon%20Playground%20(Singapore%20Heritage)!5e0!3m2!1sen!2ssg!4v1659791660982!5m2!1sen!2ssg" ></iframe>
+                        <br>
+                        <small>
+                          <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d705.1163605904803!2d103.85400654972376!3d1.3318272770044728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17648d4dcabb%3A0x5c0f4ce489072a82!2sDragon%20Playground%20(Singapore%20Heritage)!5e0!3m2!1sen!2ssg!4v1659791660982!5m2!1sen!2ssg"  style="color:#0000FF;text-align:left">View Larger Map</a>
+                        </small>
+                    </div>
+                </div>
+                <div class = 'col-6'>
+                    <h2 class="header">Operating Hours</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Days</th><th>Timing</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <td>Monday-Sunday</td><td>Open 24 hours</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>*Please note that some venues may be subject to opening hours, please visit their official website to confirm opening hours</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of .container -->
+    <script type="text/javascript">
+        var myModal = document.getElementById("myModal");
+        var myInput = document.getElementById("myInput");
+        myModal.addEventListener("shown.bs.modal", function () {
+            myInput.focus();
+        });
+    </script>
+</body>
+{% endblock %}

@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% block title %}Explore Singapore - Hampstead Wetlands Park{% endblock %}
+{% block content %}
+<style>
+    #containerabout {
+        width: 100%;
+        height: 90vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://runeatgossip.com/wp-content/uploads/2020/07/IMG_20200630_104422-PANO-scaled.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+        max-height: 600px;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+        <!-- breadcrumbs -->
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../homepage/index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../places to visit/places to visit.html">Places to Explore</a></li>
+                <li class="breadcrumb-item"><a href="../north/north.html">North</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Hampstead Wetlands Park</li>
+            </ol>
+        </nav>
+
+    <!-- Header Image -->
+    <div id="containerabout">
+        <div class="centered">
+            <h2 class="headerabout" id="header">Hampstead Wetlands Park</h2>
+        </div>
+    </div>
+
+    <div class="container" id="containerbackground">
+        <div class="container" id="container2">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="header">About Us</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        Developed by JTC and NParks, the 3.23 hectare Hampstead Wetlands Park is a green sanctuary and a place for rest and recreation for the surrounding community of Seletar Aerospace Park.<br><br>This park provides a conducive environment for plants, birds and other wildlife that inhabit freshwater ecosystems. Snags and the habitat islands are essential parts of the wetland’s ecology, providing birds and other wildlife with shelter, nesting spots and resting grounds away from human disturbances and predators. The habitat islands also provide additional surface area for wetland plants to colonise. Wetlands help to remove sediments from surface run-off when it rains, thus acting as a natural filter. .<br><br>As you stroll along the scenic boardwalk, enjoy nature up close at the viewing decks and look out for a variety of interesting flora and fauna.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <h2 class="header">Heritage Trail</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        <span id="smallheader">Sightseeing at the Wetlands</span><br>
+                        The picturesque view of the wetlands are definitely amazing and a pond that are filled with fish, turtles, insects and water plants serve as shelter and habitat.
+                        <br>
+                        <br>
+                        <span id="smallheader">Explore the Broadwalk</span><br>
+                        The boardwalk serve as footpath for visitors who wish to around the pond and get close to nature. There are dedicated viewing decks to enjoy the interesting variety of plants and animal life. Visitors can leisurely walk around and discover some of the butterflies and dragonflies flying around the park.
+                        <br>
+                        <br>
+                        <span id="smallheader">Walk Around the Park</span><br>
+                        Going around the short trails in the park, visitors can see interesting facts on the flora and fauna. The park is filled with greenery with different types of plant species.
+                        <br>
+                        <br>
+                        <span id="smallheader">Visit the Heritage Tree</span><br>
+                        The Heritage Tree named Broad Leaf Mahogany Raintree is kind of tree that are commonly found in wooden furniture and can grow up to 40m high.
+                    </p>
+                    <p>Credits: <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/hampstead-wetlands-park">NParks</a> ,<a href='https://thegeestravel.com/hampstead-wetlands-park-guide/'>The Gees Travel</a></p>
+                </div>
+            </div>
+        </div>
+        <div class='container' id="container2">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="header">Map</h2>
+                    <div class="iframe-rwd">
+                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6113301922614!2d103.8671441147541!3d1.40936629897213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15664c6feea5%3A0x92d09631a8a7af78!2sHampstead%20Wetlands%20Park!5e0!3m2!1sen!2ssg!4v1659346179023!5m2!1sen!2ssg" ></iframe>
+                        <br>
+                        <small>
+                          <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6113301922614!2d103.8671441147541!3d1.40936629897213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15664c6feea5%3A0x92d09631a8a7af78!2sHampstead%20Wetlands%20Park!5e0!3m2!1sen!2ssg!4v1659346179023!5m2!1sen!2ssg"  style="color:#0000FF;text-align:left">View Larger Map</a>
+                        </small>
+                    </div>
+                </div>
+                <div class = 'col-6'>
+                    <h2 class="header">Operating Hours</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Days</th><th>Timing</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <td>Monday-Sunday</td><td>Open 24 hours</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>*Please note that some venues may be subject to opening hours, please visit their official website to confirm opening hours</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of .container -->
+    <script type="text/javascript">
+        var myModal = document.getElementById("myModal");
+        var myInput = document.getElementById("myInput");
+        myModal.addEventListener("shown.bs.modal", function () {
+            myInput.focus();
+        });
+    </script>
+</body>
+{% endblock %}

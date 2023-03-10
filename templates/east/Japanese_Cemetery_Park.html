@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+{% block title %}Explore Singapore - Japanese Cemetery Park{% endblock %}
+{% block content %}
+<style>
+
+
+    #containerabout {
+        width: 100%;
+        height: 90vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.visitsingapore.com/see-do-singapore/history/memorials/japanese-cemetery-park/_jcr_content/par-carousel/carousel_detailpage/carousel/item_3.thumbnail.carousel-img.740.416.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+        max-height: 600px;
+        margin-bottom: 10px;
+    }
+
+
+</style>
+<body>
+        <!-- breadcrumbs -->
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../homepage/index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../places to visit/places to visit.html">Places to Explore</a></li>
+                <li class="breadcrumb-item"><a href="../east/east.html">East</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Japanese Cemetery Park</li>
+            </ol>
+        </nav>
+
+    <!-- Header Image -->
+    <div id="containerabout">
+        <div class="centered">
+            <h2 class="headerabout" id="header">Japanese Cemetery Park</h2>
+        </div>
+    </div>
+    <div class="container" id="containerbackground">
+        <div class="container" id="container2">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="header">About Us</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        A quiet residential neighbourhood in Hougang holds an important legacy of the Japanese in Singapore.The sprawling 30,000-square-metre Japanese Cemetery Park contains nearly 1,000 graves of Japanese civilians in Singapore and soldiers mostly from the early 20th century.                        </p>
+                </div>
+                <div class="col-12">
+                    <h2 class="header">History</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        Founded by three Japanese brothel-keepers, the cemetery was built in 1891 as a burial ground for karayuki-san, or Japanese women brought here for prostitution, many of whom died poor and destitute.<br><br>Over the years, other Japanese civilians were buried here, mostly during the pre-war years. The cemetery was a burial ground until 1947, and became a memorial park in 1987. The Japanese Association of Singapore oversees its upkeep.<br><br> The well-kept park also holds the ashes of Japanese soldiers, marines and airmen killed during World War II, as well as the remains of Japanese war criminals who were executed at Changi Prison.
+                    </p>
+                    <p>Credits: <a href="https://www.visitsingapore.com/see-do-singapore/history/memorials/japanese-cemetery-park/">Visit Singapore</a></p>
+                </div>
+            </div>
+        </div>
+        <div class='container' id="container2">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="header">Map</h2>
+                    <div class="iframe-rwd">
+                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6855410613016!2d103.87460631744385!3d1.365350000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16533ba8bebd%3A0x8ffa5234e75394d3!2sJapanese%20Cemetery%20Park!5e0!3m2!1sen!2ssg!4v1659786345156!5m2!1sen!2ssg" ></iframe>
+                        <br>
+                        <small>
+                          <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6855410613016!2d103.87460631744385!3d1.365350000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16533ba8bebd%3A0x8ffa5234e75394d3!2sJapanese%20Cemetery%20Park!5e0!3m2!1sen!2ssg!4v1659786345156!5m2!1sen!2ssg"  style="color:#0000FF;text-align:left">View Larger Map</a>
+                        </small>
+                    </div>
+                </div>
+                <div class = 'col-6'>
+                    <h2 class="header">Operating Hours</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Days</th><th>Timing</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <td>Monday-Sunday</td><td>7am – 7pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>*Please note that some venues may be subject to opening hours, please visit their official website to confirm opening hours</p>
+                    <h2 class="header">Contact Details</h2>
+                    <table class="table table-hover">
+                        <tbody >
+                            <tr>
+                                <td>Contact:</td><td>+65 6468 0066</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td><td>ryoto_mai@jas.org.sg</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2 class="header">Visit Official Site</h2>
+                    <table class="table table-hover">
+                        <tbody >
+                            <tr>
+                                <td><a href="https://www.jas.org.sg/pages/shisetsu-facility/" target="_blank" rel="noopener noreferrer">The Japanese Association, Singapore</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var myModal = document.getElementById("myModal");
+        var myInput = document.getElementById("myInput");
+        myModal.addEventListener("shown.bs.modal", function () {
+            myInput.focus();
+        });
+    </script>
+</body>
+{% endblock %}

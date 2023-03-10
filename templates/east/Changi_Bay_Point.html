@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% block title %}Explore Singapore - Changi Bay Point{% endblock %}
+{% block content %}
+<style>
+    #containerabout {
+        width: 100%;
+        height: 90vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../static/img/east/1.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2vw;
+        max-height: 600px;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+
+        <!-- breadcrumbs -->
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../homepage/index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../places to visit/places to visit.html">Places to Explore</a></li>
+                <li class="breadcrumb-item"><a href="../east/east.html">East</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Changi Bay Point</li>
+            </ol>
+        </nav>
+
+    <!-- Header Image -->
+    <div id="containerabout">
+        <div class="centered">
+            <h2 class="headerabout" id="header">Changi Bay Point</h2>
+        </div>
+    </div>
+    <div class="container" id="containerbackground">
+        <div class="container" id="container2">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="header">About Us</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        Changi Bay Park Connector forms part of the eastern corridor of the Round-Island-Route. At 3.6km long, it connects Changi Beach Park to the East Coastal Park Connector Network.Completed and opened to the public in January 2022, it offers a scenic coastal route for cyclists and hikers who travel from East Coast Park to Changi Beach Park.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <h2 class="header">Landmarks</h2>
+                </div>
+                <div class="col-12">
+                    <p>
+                        <span id="smallheader">Boardwalk and lookout pavilion at Changi Bay Point</span><br>
+                        The boardwalk at Changi Bay Point is connected to a breakwater, bringing visitors closer to the water’s edge. There is also a pavilion with benches near the boardwalk that offers a sweeping vista of the waterfront. Visitors can then rest while appreciating the scenic and tranquil setting of the coast.                            <br>
+                        <br>
+                        <span id="smallheader">Cycling bridges at Changi Bay Point</span><br>
+                        There are two cycling bridges at Changi Bay Point connecting Changi Coast Road and Tanah Merah Coast. They look out over the waterfront, providing visitors with a scenic view of nature as they continue on the Round Island Route.<br><br>The two bridges are around 80m-long, with glass fiber reinforced concrete finish for the decking, a durable and slip resistant material that simulates natural timber, maintaining the area’s rustic character.                            <br>
+                    </p>
+                    <p>Credits: <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/park-connector-network/changi-bay-pc">NParks</a></p>
+                </div>
+            </div>
+        </div>
+        <div class='container' id="container2">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="header">Map</h2>
+                    <div class="iframe-rwd">
+                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d33807.37266826511!2d104.02176466648974!3d1.3328128518421647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x512866b77740a45!2sChangi%20Bay%20Point!5e0!3m2!1sen!2ssg!4v1659785379302!5m2!1sen!2ssg" ></iframe>
+                        <br>
+                        <small>
+                          <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d33807.37266826511!2d104.02176466648974!3d1.3328128518421647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x512866b77740a45!2sChangi%20Bay%20Point!5e0!3m2!1sen!2ssg!4v1659785379302!5m2!1sen!2ssg"  style="color:#0000FF;text-align:left">View Larger Map</a>
+                        </small>
+                    </div>
+                </div>
+                <div class = 'col-6'>
+                    <h2 class="header">Operating Hours</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Days</th><th>Timing</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <td>Monday-Sunday</td><td>Open 24 hours</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>*Please note that some venues may be subject to opening hours, please visit their official website to confirm opening hours</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of .container -->
+</body>
+{% endblock %}
